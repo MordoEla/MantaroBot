@@ -209,6 +209,7 @@ public class MantaroCore {
                     ))
                     .setEventManagerProvider(id -> getShard(id).getManager())
                     .setBulkDeleteSplittingEnabled(false)
+                    .setSnowflakeReferencesEnabled(false)
                     .setVoiceDispatchInterceptor(MantaroBot.getInstance().getLavaLink().getVoiceInterceptor())
                     .setLargeThreshold(100)
                     .disableCache(EnumSet.of(CacheFlag.ACTIVITY, CacheFlag.EMOTE, CacheFlag.CLIENT_STATUS))

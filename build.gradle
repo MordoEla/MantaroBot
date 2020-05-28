@@ -65,7 +65,8 @@ task generateLanguageList {
 
 dependencies {
     //remember to update this 3 all the time lul
-    compile 'net.dv8tion:JDA:4.1.1_154'
+    //compile 'net.dv8tion:JDA:4.1.1_154'
+    compile 'com.github.natanbc:JDA:bc89979300e38d68ff0a76d245243b0338c5b8ee'
     compile 'club.minnced:discord-webhooks:0.3.0'
 
     //Music
